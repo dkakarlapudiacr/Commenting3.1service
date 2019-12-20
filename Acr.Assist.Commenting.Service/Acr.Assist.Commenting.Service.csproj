@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Acr.Assist.Commenting.Core\Acr.Assist.Commenting.Core.csproj" />
+    <ProjectReference Include="..\Acr.Assist.Commenting.Data\Acr.Assist.Commenting.Data.csproj" />
+  </ItemGroup>
+
+</Project>

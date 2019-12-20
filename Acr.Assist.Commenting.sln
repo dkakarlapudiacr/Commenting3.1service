@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acr.Assist.Commenting.API", "Acr.Assist.Commenting.API\Acr.Assist.Commenting.API.csproj", "{AD532C06-009A-43B2-8DE1-13A59E2E1008}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acr.Assist.Commenting.Core", "Acr.Assist.Commenting.Core\Acr.Assist.Commenting.Core.csproj", "{2F53DEA4-10B6-42C7-ADA7-FE236A59623A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acr.Assist.Commenting.Data", "Acr.Assist.Commenting.Data\Acr.Assist.Commenting.Data.csproj", "{EA03DCB7-36B2-477D-9127-15D4B1F8678D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACR.Assist.Commenting.Integrations", "ACR.Assist.Commenting.Integrations\ACR.Assist.Commenting.Integrations.csproj", "{6FF073FA-CF6C-4597-B7D8-C1D08B924F7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acr.Assist.Commenting.Service", "Acr.Assist.Commenting.Service\Acr.Assist.Commenting.Service.csproj", "{C7986E95-830B-4603-BA85-50DBED06884E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acr.Assist.Commenting.Service.Tests", "Acr.Assist.Commenting.Service.Tests\Acr.Assist.Commenting.Service.Tests.csproj", "{908ADAE1-21C6-4C69-877F-94EDCC5D40FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acr.Assist.Commenting.Infrastructure", "Acr.Assist.Commenting.Infrastructure\Acr.Assist.Commenting.Infrastructure.csproj", "{251DF3F1-3A4B-4F94-B7A9-BDD0896FF523}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD532C06-009A-43B2-8DE1-13A59E2E1008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD532C06-009A-43B2-8DE1-13A59E2E1008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD532C06-009A-43B2-8DE1-13A59E2E1008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD532C06-009A-43B2-8DE1-13A59E2E1008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F53DEA4-10B6-42C7-ADA7-FE236A59623A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F53DEA4-10B6-42C7-ADA7-FE236A59623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F53DEA4-10B6-42C7-ADA7-FE236A59623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F53DEA4-10B6-42C7-ADA7-FE236A59623A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA03DCB7-36B2-477D-9127-15D4B1F8678D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA03DCB7-36B2-477D-9127-15D4B1F8678D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA03DCB7-36B2-477D-9127-15D4B1F8678D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA03DCB7-36B2-477D-9127-15D4B1F8678D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF073FA-CF6C-4597-B7D8-C1D08B924F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF073FA-CF6C-4597-B7D8-C1D08B924F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF073FA-CF6C-4597-B7D8-C1D08B924F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF073FA-CF6C-4597-B7D8-C1D08B924F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7986E95-830B-4603-BA85-50DBED06884E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7986E95-830B-4603-BA85-50DBED06884E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7986E95-830B-4603-BA85-50DBED06884E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7986E95-830B-4603-BA85-50DBED06884E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908ADAE1-21C6-4C69-877F-94EDCC5D40FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908ADAE1-21C6-4C69-877F-94EDCC5D40FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908ADAE1-21C6-4C69-877F-94EDCC5D40FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908ADAE1-21C6-4C69-877F-94EDCC5D40FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251DF3F1-3A4B-4F94-B7A9-BDD0896FF523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251DF3F1-3A4B-4F94-B7A9-BDD0896FF523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251DF3F1-3A4B-4F94-B7A9-BDD0896FF523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251DF3F1-3A4B-4F94-B7A9-BDD0896FF523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7C6A79-F150-4050-9198-86BEE2BEB554}
+	EndGlobalSection
+EndGlobal
